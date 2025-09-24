@@ -3,7 +3,7 @@
 int main()
 {
 	char phone[] = "01-234-5678";
-	char* a = phone;
+	//char* a = phone;
 	char *p = NULL;
 
 	p = strtok(phone, "-");
